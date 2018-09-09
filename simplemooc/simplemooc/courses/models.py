@@ -17,3 +17,11 @@ class Course(models.Model):
 	created_at = models.DateTimeField('Criado em', auto_now_add=True)
 	updated_at = models.DateTimeField('Atualizado em', auto_now=True)
 	objects = CourseManager()
+
+	def __str__(self):
+		return self.name
+
+	class Meta:
+		verbose_name = 'Curso'
+		verbose_name_plural = 'Cursos'
+		ordering = ['name']

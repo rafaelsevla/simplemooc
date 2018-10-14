@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9de3f3ea-ce5f-42f5-bf5c-07e6aa667235" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +19,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="708412902">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -31,40 +51,44 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="28" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="754" />
-          <entry key="py" value="2120" />
+          <entry key="html" value="1233" />
+          <entry key="py" value="5962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="28" />
-          <entry key="HTML" value="754" />
+          <entry key="HTML" value="1233" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2120" />
+          <entry key="Python" value="5962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="24" />
-          <entry key="py" value="43" />
+          <entry key="html" value="32" />
+          <entry key="py" value="71" />
+          <entry key="sqlite3" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="24" />
+          <entry key="HTML" value="32" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="43" />
+          <entry key="Python" value="71" />
+          <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -72,24 +96,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="21" />
+            <state>
+              <caret selection-end-line="30" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py">
+        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1539262549288" expanded="true" signature="163:164" ph="..." />
-                <marker date="1539262549288" expanded="true" signature="237:425" ph="..." />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -97,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -109,20 +137,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="261">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#64#0" expanded="true" />
+                <marker date="1539525131039" expanded="true" signature="1225:1883" ph="..." />
+                <marker date="1539525131039" expanded="true" signature="1533:1883" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1539524586266" expanded="true" signature="329:1043" ph="..." />
+                <marker date="1539524586266" expanded="true" signature="627:636" ph="..." />
+                <marker date="1539524586266" expanded="true" signature="1079:1080" ph="..." />
+                <marker date="1539524586266" expanded="true" signature="1277:1594" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset_confirm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -155,6 +201,12 @@
       <find>home</find>
       <find>static</find>
       <find>css</find>
+      <find>backend</find>
+      <find>modelback</find>
+      <find>model</find>
+      <find>username_f</find>
+      <find>username_</find>
+      <find>usercreat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,11 +221,9 @@
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/contact_email.html" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/urls.py" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/url.py" />
-        <option value="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/courses/urls.py" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/index.html" />
-        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/login.html" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/register.html" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/core/templates/contact.html" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/core/templates/home.html" />
@@ -181,10 +231,21 @@
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/edit.html" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/edit_password.html" />
-        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py" />
-        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" />
         <option value="$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/models.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/admin.py" />
+        <option value="$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/auth/base_user.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/core/utils.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/models.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/core/views.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/login.html" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset.html" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset_mail.html" />
+        <option value="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset_confirm.html" />
       </list>
     </option>
   </component>
@@ -195,16 +256,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1299" />
-    <option name="height" value="743" />
+    <option name="x" value="229" />
+    <option name="y" value="88" />
+    <option name="width" value="974" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,41 +293,24 @@
               <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
               <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
               <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="simplemooc" type="b2602c69:ProjectViewProjectNode" />
               <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
               <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
               <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simplemooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simplemooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="simplemooc" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sms" />
@@ -296,9 +344,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26895452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21308859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,7 +356,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960095" weight="0.20228384" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960095" weight="0.34747145" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -317,7 +364,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960895" />
       <window_info anchor="right" id="SciView" order="4" />
     </layout>
   </component>
@@ -328,18 +375,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simplemooc/db.sqlite3">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -383,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -401,16 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -435,20 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -470,13 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="120" column="19" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -484,13 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -508,42 +500,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py">
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/models.py" />
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="229">
+          <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="150" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="130" column="6" selection-start-line="130" selection-start-column="6" selection-end-line="130" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/auth/checks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1539262549288" expanded="true" signature="163:164" ph="..." />
-            <marker date="1539262549288" expanded="true" signature="237:425" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1539479863572" expanded="true" signature="1433:1434" ph="..." />
+            <marker date="1539479863572" expanded="true" signature="1433:1439" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/auth/base_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="48" />
+          <folding>
+            <element signature="e#110#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="130" column="12" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1539525131039" expanded="true" signature="1225:1883" ph="..." />
+            <marker date="1539525131039" expanded="true" signature="1533:1883" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="288">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py">
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset_mail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state>
+          <caret column="113" selection-start-column="91" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1539524586266" expanded="true" signature="329:1043" ph="..." />
+            <marker date="1539524586266" expanded="true" signature="627:636" ph="..." />
+            <marker date="1539524586266" expanded="true" signature="1079:1080" ph="..." />
+            <marker date="1539524586266" expanded="true" signature="1277:1594" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset_confirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/password_reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>

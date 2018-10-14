@@ -130,11 +130,11 @@ MEDIA_URL = '/media/'
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 DEFAULT_FROM_EMAIL = 'Nome <email@gmail.com>'
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'email@gmail.com'
-EMAIL_HOST_PASSWORD = 'senha'
-EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'email@gmail.com'
+# EMAIL_HOST_PASSWORD = 'senha'
+# EMAIL_PORT = 587
 
 CONTACT_EMAIL = 'rafaelsevla@gmail.com'
 
@@ -142,3 +142,4 @@ CONTACT_EMAIL = 'rafaelsevla@gmail.com'
 LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'core:home'
 LOGOUT_URL = 'accounts:logout'
+AUTH_USER_MODEL = 'accounts.User'

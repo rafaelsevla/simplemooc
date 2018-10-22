@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9de3f3ea-ce5f-42f5-bf5c-07e6aa667235" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/core/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="9de3f3ea-ce5f-42f5-bf5c-07e6aa667235" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +26,7 @@
     <session id="708412902">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />

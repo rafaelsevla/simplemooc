@@ -7,6 +7,7 @@
     <meta name="description" content="Simple MOOC - Uma simples plataforma de ensino a distância" />
     <title>SURAK</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}" />
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
 </head>
 <body>
@@ -18,7 +19,7 @@
             <li><a href="{% url 'courses:index' %}">Cursos</a></li>
             <li><a href="{% url 'core:contact' %}">Contato</a></li>
             {% if user.is_authenticated %}
-            <li><a href="{% url 'accounts:dashboard' %}">Dashboard</a></li>
+            <li><a href="{% url 'accounts:dashboard' %}">Meu Perfil</a></li>
             <li><a href="{% url 'accounts:logout' %}">Sair</a></li>
             {% else %}
             <li><a href="{% url 'accounts:login' %}">Entrar</a></li>

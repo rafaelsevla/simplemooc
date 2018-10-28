@@ -48,8 +48,8 @@ def enrollment(request, slug):
     )
     if created:
         # enrollment.active()
-        messages.success(request, 'Você foi inscrito no curso com sucesso!')
+        messages.success(request, 'Cadastro feito com sucesso!')
     else:
-        messages.add_message(request, messages.INFO, 'Você já está inscrito no curso!')
+        messages.warning(request, 'Você já está cadastrado nesse curso!!', extra_tags='alert')
 
     return redirect('accounts:dashboard')

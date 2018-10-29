@@ -2,28 +2,27 @@
 
 {% block dashboard_content %}
 
+{% for announcement in announcements %}
 <div class="well">
-    <h2>Inicio das aulas, sejam bem vindos!</h2>
+    <h2>
+        <a href="{% url 'courses:show_announcement' course.slug announcement.pk %}">
+            {{ announcement.title }}
+        </a>
+    </h2>
+    {{ announcement.content|linebreaks }}
     <p>
-    Lorem ipsum varius justo at litora enim ullamcorper nullam, congue nulla felis ultricies nostra congue dolor, ultricies enim odio justo luctus curae facilisis. interdum condimentum urna mi morbi purus consequat vestibulum etiam, mattis vestibulum sollicitudin aenean torquent fringilla tellus quam, dictumst malesuada litora rhoncus at donec netus. felis sem id pretium sapien ad turpis eu quisque, lacus consequat metus neque aliquam posuere donec, justo pretium vestibulum facilisis blandit tempor tristique. nulla ac hendrerit eget neque vitae fames himenaeos, morbi sollicitudin dictumst habitant lacus nibh ullamcorper, ut at turpis rutrum sollicitudin aliquam.
-    </p>
-    <p>
-        <a href="#comments" title="">
+        <a href="{% url 'courses:show_announcement' course.slug announcement.pk %}#comments">
             <i class="fa fa-comments-o"></i>
-            10 comentarios
+            {% with comments_count=announcement.comments.count %}
+            {{ comments_count }}
+            Comentário{{ comments_count|pluralize }}
+            {% endwith %}
         </a>
     </p>
 </div>
+{% empty %}
 <div class="well">
-    <h2>Inicio das aulas, sejam bem vindos!</h2>
-    <p>
-    Lorem ipsum varius justo at litora enim ullamcorper nullam, congue nulla felis ultricies nostra congue dolor, ultricies enim odio justo luctus curae facilisis. interdum condimentum urna mi morbi purus consequat vestibulum etiam, mattis vestibulum sollicitudin aenean torquent fringilla tellus quam, dictumst malesuada litora rhoncus at donec netus. felis sem id pretium sapien ad turpis eu quisque, lacus consequat metus neque aliquam posuere donec, justo pretium vestibulum facilisis blandit tempor tristique. nulla ac hendrerit eget neque vitae fames himenaeos, morbi sollicitudin dictumst habitant lacus nibh ullamcorper, ut at turpis rutrum sollicitudin aliquam.
-    </p>
-    <p>
-        <a href="#comments" title="">
-            <i class="fa fa-comments-o"></i>
-            10 comentarios
-        </a>
-    </p>
+    <h2>Nenhum anúncio criado</h2>
 </div>
+{% endfor %}
 {% endblock %}

@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9de3f3ea-ce5f-42f5-bf5c-07e6aa667235" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/core/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/announcements.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/announcements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/course_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/course_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +28,15 @@
     <session id="708412902">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -56,7 +47,7 @@
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -104,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="240">
               <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -113,13 +104,6 @@
                 <marker date="1540766201214" expanded="true" signature="417:419" ph="..." />
                 <marker date="1540766201214" expanded="true" signature="1149:1253" ph="..." />
                 <marker date="1540766201214" expanded="true" signature="1989:2134" ph="..." />
-                <marker date="1540766201214" expanded="true" signature="2276:2792" ph="..." />
-                <marker date="1540766201214" expanded="true" signature="2823:2824" ph="..." />
-                <marker date="1540766201214" expanded="true" signature="2823:2935" ph="..." />
-                <marker date="1540766201214" expanded="true" signature="3598:3604" ph="..." />
-                <marker date="1540766201214" expanded="true" signature="3778:3779" ph="..." />
-                <marker date="1540766201214" expanded="true" signature="4373:4374" ph="..." />
-                <marker date="1540766201214" expanded="true" signature="5064:5073" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
+            <state relative-caret-position="2160">
               <caret line="150" column="45" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
@@ -146,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/lesson.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="615">
               <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
             </state>
           </provider>
@@ -155,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -336,7 +320,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -371,9 +355,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20989625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21628092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -473,11 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1539878452446" expanded="true" signature="1434:1435" ph="..." />
-            <marker date="1539878452446" expanded="true" signature="1434:1440" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,10 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1540752633090" expanded="true" signature="887:893" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,11 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1540762895009" expanded="true" signature="456:481" ph="..." />
-            <marker date="1540762895009" expanded="true" signature="517:518" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,10 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-            <marker date="1540764779402" expanded="true" signature="170:175" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,28 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1540766201214" expanded="true" signature="219:220" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="219:221" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="417:419" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="1149:1253" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="1989:2134" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="2276:2792" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="2823:2824" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="2823:2935" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="3598:3604" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="3778:3779" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="4373:4374" ph="..." />
-            <marker date="1540766201214" expanded="true" signature="5064:5073" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,9 +671,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1540766201214" expanded="true" signature="219:220" ph="..." />
+            <marker date="1540766201214" expanded="true" signature="219:221" ph="..." />
+            <marker date="1540766201214" expanded="true" signature="417:419" ph="..." />
+            <marker date="1540766201214" expanded="true" signature="1149:1253" ph="..." />
+            <marker date="1540766201214" expanded="true" signature="1989:2134" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
+        <state relative-caret-position="2160">
           <caret line="150" column="45" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
@@ -749,15 +704,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/lesson.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="615">
           <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simplemooc/simplemooc/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

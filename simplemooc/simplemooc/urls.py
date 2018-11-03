@@ -20,9 +20,10 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    url(r'^', include(('simplemooc.core.urls','core'), namespace='core')),
+    url(r'^', include(('simplemooc.core.urls', 'core'), namespace='core')),
     url(r'^conta/', include(('simplemooc.accounts.urls', 'accounts'), namespace='accounts')),
     url(r'^cursos/', include(('simplemooc.courses.urls', 'courses'), namespace='courses')),
+    url(r'^forum/', include(('simplemooc.forum.urls', 'forum'), namespace='forum')),
     path('admin/', admin.site.urls),
 ]
 
